@@ -216,7 +216,7 @@
     opacity: 0.7;
 }
 
-@media (max-width:600px) {a
+@media (max-width:600px) {
     .VIP{
         display: none;
     }
