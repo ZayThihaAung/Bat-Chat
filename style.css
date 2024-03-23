@@ -1,313 +1,324 @@
 .MainContainer{
-    max-width: 1024px;
-    margin: 0 auto;
-    height: 800px;
+  max-width: 1024px;
+  margin: 0 auto;
+  height: 800px;
 }
 
 .Main{
-    display: flex;
-    justify-content: space-around;
-    position: sticky;
-    top: 0;
-    opacity: 0.9;
-    height: 100px;
-    align-items: center;
-    border-bottom: 0.4px solid lightgray;
-    background-color: #f6f6f6;
+  display: flex;
+  justify-content: space-around;
+  position: sticky;
+  top: 0;
+  opacity: 0.9;
+  height: 100px;
+  align-items: center;
+  border-bottom: 0.4px solid lightgray;
+  background-color: #f6f6f6;
 }
 /*chruegwut5r4yhgtuy48y*/
 .body{
-    margin: 0;
-    padding: 0
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .Header{
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .Text{
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 .container{
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .Fotter{
-    text-align: center;
-    background-color: #f6f6f6;
-    width: 91%;
-    padding: 50px;
-    margin-top: 70px;
-    font: 800;
-    font-size: 40px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  background-color: #f6f6f6;
+  width: 91%;
+  padding: 50px;
+  margin-top: 70px;
+  font: 800;
+  font-size: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .Fotter2{
-    padding: 50px;
-    position: relative;
-    border: 1px solid black;
+  padding: 50px;
+  position: relative;
+  border: 1px solid black;
 }
 
 .Advice{
-    padding: 2px;
-    width: 300px;
-    height: 30px;
-    transition: width 2s;
+  padding: 2px;
+  width: 300px;
+  height: 30px;
+  transition: width 2s;
 }
 
 .Advice:focus{
-    width: 400px;    
+  width: 400px;    
 }
 
 .logocontainer{
-    height: 50px;
-    width: 50px;
+  height: 50px;
+  width: 50px;
 }
 
 .logo{
-    width: 100%;
-}
-
-.put1:focus{
-    width: 300px;
-    border: 1px solid;
+  width: 100%;
 }
 
 .put1{
-    border: none;
-    width: 100px;
-    height: 25px;
-    outline: cadetblue;
-    border-radius: 8px;
-    display: block;
-    margin: 10px 0px;
-    padding: 4px 8px;
-    background-color: #f6f6f6;
-    transition: width 2s;
+  border: none;
+  width: 300px;
+  height: 25px;
+  outline: cadetblue;
+  border-radius: 8px;
+  display: block;
+  margin: 10px 0px;
+  padding: 4px 8px;
+  background-color: #f6f6f6;
+  transition: width 2s;
 }
 
 .left{
-    display: inline-block;
-    width: 50%;
+  display: inline-block;
+  width: 50%;
 }
 
 .right{
-    display: inline-block;
-    width: 50%;
+  display: inline-block;
+  width: 50%;
 }
 
 .inner{
-    width: 50%;
+  width: 50%;
 }
 
 .rightimg{
-    width: 110%;
+  width: 110%;
 }
 .button{
-    display: block;
-    background-color: yellow;
-    border-radius: 12px;
-    border: none;
-    font-style: oblique;
-    padding: 9px 13px;
-    margin: 20px 0px;
-    height: 30px;
+  display: block;
+  background-color: yellow;
+  border-radius: 12px;
+  border: none;
+  font-style: oblique;
+  padding: 9px 13px;
+  margin: 20px 0px;
+  height: 30px;
 }
 
 .Password{
-    display: block;
-    text-decoration: none;
-    color: inherit;
-    margin-bottom: 20px;
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  margin-bottom: 20px;
 }
 
 .appimg{
-    width: 50%;
+  width: 50%;
 }
 
 .VIP{
-    text-decoration: none;
-    color: inherit;
-    margin-right: 40px;
-    font-size: 20px;
+  text-decoration: none;
+  color: inherit;
+  margin-right: 40px;
+  font-size: 20px;
 }
 
 .VIP:hover{
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 /*Mobile Menu*/
 
 .hamburgerMenuContainer{
-    position: absolute;
-    right: 90px;
-    display: block;
+  position: absolute;
+  right: 90px;
+  display: none;
 }
 
-.hamburger {
-    width: 45px;
-    height: 4px;
-    background-color: #444;
-    margin: 5px 0px;
-    border-radius: 3px;
-    cursor: pointer;
+.hamburger1, .hamburger2, .hamburger3 {
+  width: 45px;
+  height: 4px;
+  background-color: #444;
+  margin: 5px 0px;
+  border-radius: 3px;
+  cursor: pointer;
 }
 
-.line1 {
-    transform: translateY(6px) rotate(45deg);
+.hamburgerItems{
+  position: absolute;
+  transform: translateY(-18cm);
+  transition: all 1s ease-in-out;
+  height: 70%;
+  width: 100%;
+  margin: 0 auto;
+  background-color: gray;
 }
 
-.line2{
-    opacity: 0;
+.items{
+  display: block;
+  text-decoration: none;
+  margin-left: 130px;
+  margin-top: 50px;
+  font-size: 50px;
+  color: #444;
 }
 
-.line3{
-    transform: translateY(-6px) rotate(-45deg);
+.transForm{
+  transition: all 0.6s ease-in-out;
 }
 
 .footer{
-    background-color: #f6f6f6;
-    padding: 10px 30px;
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #f6f6f6;
+  padding: 10px 30px;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .columcontainer{
-    display: flex;
+  display: flex;
 }
 
 .colum{
-    width: 390px;
-    margin: 15px;
+  width: 390px;
+  margin: 15px;
 }
 
 .box{
-    padding: 20px;
-    height: 350px;
-    width: 300px;
-    background-color: #f6f6f6;
-    border-radius: 30px;
+  padding: 20px;
+  height: 350px;
+  width: 300px;
+  background-color: #f6f6f6;
+  border-radius: 30px;
 }
 
 .imgcontainer{
-    height: 200px;
-    border-radius: 8px;
-    overflow: hidden;
-    margin-bottom: 10px;
+  height: 200px;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 10px;
 }
 
 .boximg{
-    width: 100%;
+  width: 100%;
 }
 
 .textcontainer{
-    text-align: center;
-    margin-left: 6px;
-    margin-right: 10px;
+  text-align: center;
+  margin-left: 6px;
+  margin-right: 10px;
 }
 
 .title{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .Para{
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 @media (max-width:600px) {
-    .VIP{
-        display: none;
-    }
+  .VIP{
+      display: none;
+  }
 
-    .hamburgerMenuContainer{
-        display: block;
-    }
+  .Password{
+    margin-top: 10px;
+  }
 
-    .mobilemenucontainer{
-        display: block;
-    }
+  .hamburgerMenuContainer{
+      display: block;
+  }
 
-    .left{
-        width: 100%;
-        margin-bottom: 30px;
-    }
+  .mobilemenucontainer{
+      display: block;
+  }
 
-    .right{
-        width: 100%;
-        overflow: hidden;
-        text-align: center;
-    }
+  .left{
+      width: 100%;
+      margin-bottom: 30px;
+  }
 
-    .rightimg{
-        margin: 0 -40%;
-    }
+  .right{
+      width: 100%;
+      overflow: hidden;
+      text-align: center;
+  }
 
-    .inner{
-        width: 60%;
-        margin: 0 auto;
-    }
+  .rightimg{
+      margin: 0 -40%;
+  }
 
-    .Fotter{
-        margin-top: 20px;
-        font-size: 20px;
-        padding: 10px;
-    }
+  .inner{
+      width: 60%;
+      margin: 0 auto;
+  }
 
-    .columcontainer{
-        flex-wrap: wrap;
-    }
+  .Fotter{
+      margin-top: 20px;
+      font-size: 20px;
+      padding: 10px;
+  }
+
+  .columcontainer{
+      flex-wrap: wrap;
+  }
 }
 
 @media (max-width:500px){
 
 
-    .inner{
-        width: 75%;
-    }
-
-    .logocontainer{
-        margin-left: 2px;
-    }
-    
-    .Fotter{
-        margin-top: 20px;
-    }
-
-    .put1{
-        width: 250px;
-    }
-
-    .columcontainer{
-        flex-wrap: wrap;
-    }
-    
-  .box{
-    height: 370px; 
+  .inner{
+      width: 75%;
   }
+
+  .logocontainer{
+      margin-left: 2px;
+  }
+  
+  .Fotter{
+      margin-top: 20px;
+  }
+
+  .put1{
+      width: 250px;
+  }
+
+  .columcontainer{
+      flex-wrap: wrap;
+  }
+  
+.box{
+  height: 370px; 
+}
 }
 
 @media (max-width:300px){
-    .put1{
-        width: 200px;
-    }
-
-    .inner{
-        width: 86%;
-    }
-   
-    .Fotter{
-        margin-top: 10px;
-        font-size: 20px;
-        padding: 10px;
-    }
-
-    .columcontainer{
-        flex-wrap: wrap;
-    }
-    
-     .box{
-    height: 370px; 
+  .put1{
+      width: 200px;
   }
+
+  .inner{
+      width: 86%;
+  }
+ 
+  .Fotter{
+      margin-top: 10px;
+      font-size: 20px;
+      padding: 10px;
+  }
+
+  .columcontainer{
+      flex-wrap: wrap;
+  }
+  
+   .box{
+  height: 370px; 
+}
 }
